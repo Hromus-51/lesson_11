@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    padding: 100px 0;
+    background: url('../img/background.jpg') 0 0/100% auto no-repeat;
+}
+.we-are__container {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.we-are__block {
+    color: #fff;
+    background: url('../img/decor.png') -15px 270px no-repeat, #5D62B5;
+    padding: 100px 88px 354px 88px;
+    border-radius: 40px;
+    margin: -80px 0 0 0;
+    position: relative;
+}
+.we-are__block::before{
+    content: '';
+    width: 201px;
+    height: 317px;
+    background: url('../img/holes.svg') no-repeat;
+    position: absolute;
+    top: -110px;
+    right: -77px;
+}
+.we-are__title {
+    margin: 0 0 36px 0;
+}
+.title__subtitle {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 2;
+    letter-spacing: 2.5px;
+    margin: 0 0 33px 0;
+}
+.title__subtitle::before {
+    content: '';
+    width: 17px;
+    height: 16px;
+    display: inline-block;
+    background: url('../img/icon.svg') 50% no-repeat;
+    margin: 0 16px 0 0;
+    position: relative;
+    top: 2px;
+    left: 0;
+}
+.title__title {
+    font-size: 36px;
+    line-height: 1.166;
+    font-weight: 900;
+}
+.we-are__text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+.we-are__dog-block {
+    max-width: 846px;
+    box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+    border-radius: 40px;
+    overflow: hidden;
+    margin: -300px auto;
+    position: relative;
+}
+.we-are__image {
+    width: 100%;
+}
